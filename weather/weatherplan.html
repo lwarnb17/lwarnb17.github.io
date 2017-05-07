@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>Weather App Plan | CIT 230 Class | Frontend development</title>
+        <meta name="Weather App" content= "A plan for a Weather App"/>
+        <meta name="viewpoint" content="width=device-width">
+
+    </head>
+
+
+    <body>
+
+        <h1>Mobile Weather App Site Plan</h1>
+
+        <nav><a href="/index.html">Home</a> </nav>
+
+
+        <h2>Purpose</h2>
+
+        <p>The client would like a web based weather app created. The purpose of the site is to give<br>
+            current weather conditions in 3 different ways.  The initial landing page will give the<br>
+            weather for the current location based on the Geocoding information given by the browser.<br>
+            The second is weather for 3 specific locations accessible through a dedicated link, and the<br>
+            third is weather for any location determined by a search string.</p>
+
+
+        <h2>Audience</h2>
+
+        <p>
+            Primary audience is adults ages 18-30.  Most will be students.  Access to the site will be split<br>
+            between mobile devices and laptops.
+        </p>
+
+
+        <h3>Audience Goals: </h3>
+
+        <p>College students move around quite a bit so one goal would be to quickly get the weather<br>
+        conditions for their current location as they head off to class or study. They are also often<br>
+        far from their homes so the ability to quickly get the conditions for a specific location is<br>
+        important as well.  The third goal deals with planning for travels...the ability to get weather<br>
+        conditions for any location will help with last minute packing for road trips.
+        </p>
+
+        <h4>Personas</h4>
+
+        <img src="/weather/plan-images/cool-joe.jpg" alt="Snoopy">
+
+
+        <ul>
+            <li><strong>Name:</strong> Joe Cool</li>
+            <li><strong>Occupation:</strong> Student</li>
+            <li><strong>Age:</strong> Undetermined</li>
+            <li><strong>Intersts:</strong> Traveling, seeing new things </li>
+            <li><strong>Motivation:</strong> Joe is not into planning.  His last minute scrambling, whether it<br>
+                is getting to class in the morning or heading out on his latest adventure, has<br>
+                left him unprepared for weather conditions many times (He is tired of<br>
+                sleeping in the rain and snow).  He would like to be more prepared...without having<br>
+                to put much effort into it...or planning.</li>
+            <li><strong>Enviroment:</strong> Joe is comfortable using laptops and Mobile devices, he will<br>
+                most often be found on a smart phone however.  Many of the places he frequents<br>
+                do not have great signal…he is often dealing with 3G speeds</li>
+        </ul>
+
+
+        <img src="/weather/plan-images/lucy.jpg" alt="Lucy">
+
+        <ul>
+            <li><strong>Name:</strong> Lucy van Pelt</li>
+            <li><strong>Occupation:</strong> Student</li>
+            <li><strong>Age:</strong> 18</li>
+            <li><strong>Intersts:</strong> Giving advice, Psychology </li>
+            <li><strong>Motivation:</strong> Lucy is a no nonsense young lady who likes to help those<br>
+                around her. She wants easy access to the weather conditions for many<br>
+                locations so that she can always be prepared to offer some unsolicited<br>
+                advice to her peers. </li>
+            <li><strong>Enviroment:</strong> Lucy has a smart phone that she uses to keep her eye <br>
+                on her social media ‘friends’.  She is usually not very far from her trusty laptop<br>
+                however. Most of her time online is spent either on the University network<br>
+                or the apartment broadband.</li>
+        </ul>
+
+        <h3>Content</h3>
+
+        <p>All weather pages should include Location name, temperature, high, low, current weather<br>
+           descriptor, precipitation, and wind on small, and hourly temps should be added on larger<br>
+           screens. (See provided weather data file for more details)</p>
+
+        <h4>Pages</h4>
+
+        <ol type="1">
+            <li><strong>Home:</strong> weather for the current location. Current location should be determined by<br>
+                using the Geolocation API of the browser.  This information should be passed to the<a href="https://www.wunderground.com/weather/api/"> WeatherUnderground API</a><br>to retrieve
+            the current conditions. </li>
+
+            <li><strong>Franklin, Greenville, Springfield:</strong>weather for each specific location. The weather<br>
+            for The Franklin and Greenville pages should be pulled from a local JSON file<br>
+            that will be provided.   </li>
+
+            <li><strong>Search: </strong> Begins with only a search box, characters entered will cause a list of <br>suggested matches to appear.  Selected location will pull up the weather. The<br> search term from the field should be sent to the
+                <a href="https://www.wunderground.com/weather/api/d/docs?d=autocomplete-api&MR=1"> WeatherUnderground autocomplete API</a><br>and the results used to pull the current conditions for the selected location.</li>
+
+        </ol>
+
+
+        <h3>Styles</h3>
+
+        <h4>Branding</h4>
+
+        <p>The client provided the following initial concept for a name and logo: (You recognize<br>
+        that this logo could easily be re-created entirely with CSS using the right font and HTML entities… &#9856;  &#9861;)
+        </p>
+
+
+        <img src="/weather/plan-images/logo-blue.jpg" alt="Logo">
+
+        <h4>Typography</h4>
+
+        <p>The client also expressed interest in the following fonts:</p>
+
+        <p><strong>Heading Font:</strong><a href="https://fonts.google.com/specimen/Sansita">Sansita</a> From Google Fonts<br>
+
+
+            <img src="/weather/plan-images/sanita-alphabet.jpg" alt="Sansita Font"><br><br>
+
+
+        <img src="/weather/plan-images/sansita-headline.jpg" alt="Sansita Font"><br>
+
+        <p><strong>Body Copy Font:</strong>Helvetica</p>
+
+        <p>A B C Ć Č D Đ E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž a b c č ć d đ e f g h i j<br>
+           k l m n o p q r s š t u v w x y z ž 1 2 3 4 5 6 7 8 9 0 ‘ ? ’ “ ! ” ( % ) [ # ] { @ } / - + ÷ × =<br>
+           > ® © $ € £ ¥ ¢ : ; , . * </p>
+        <p>Lorem ipsum nonsed eicillabore essum fugit lantisit, si nis eictia num fugiam et quatquis resto<br>
+           eossitem quunt quae sit dolupis maio omnimo il id maio bea ipid que conseque volorem. Et<br>
+           facidebit vel ma doluptasitis num, ullandebit hicto beaquos tiumquis postrum cori odit eosam<br>
+           quiatur? Volo quid minvel earuptatem quiatur?</p>
+
+        <h4>Colors</h4>
+
+
+
+        <table style="width:30%">
+
+            <tr>
+            <td><img src="/weather/plan-images/primary-swatch.png" alt="blue swatch"></td>
+            <td><img src="/weather/plan-images/secondary-swatch.png" alt="salmon swatch"></td>
+            <td><img src="/weather/plan-images/accent1-swatch.png" alt="mustward yellow swatch"></td>
+            <td><img src="/weather/plan-images/accent2-swatch.png" alt="dark blue swatch"></td>
+            </tr>
+
+        </table>
+
+
+        <p> Primary: #A6D8DB Secondary: #F07C6C  Accent 1: #E7EF61  Accent 2: #47556F</p>
+
+
+        <h4>Elements</h4>
+        <p>(add usability note on each element)</p>
+        <p><strong>Navigation:</strong></p>
+        <img src="/weather/plan-images/nav-bar.jpg" alt="navigation bar">
+
+        <ul style="list-style-type:none">
+            <li>Link: normal:#4A4653</li>
+            <li>Link: visited:#4A4653></li>
+            <li>Link: hover:#E7EF61</li>
+            <li>Link: active:#A6D8DB</li>
+        </ul>
+
+        <h4>Opaque rounded content box:</h4>
+        <img src="/weather/plan-images/rounded-example.jpg" alt="rounded content box">
+
+        <ul style="list-style-type:none">
+            <li>background-color: rgba(200,200,200,.6);</li>
+            <li>margin: .2em auto;</li>
+            <li>border: 1px solid;</li>
+            <li>border-radius: 5px;</li>
+        </ul>
+
+
+        <h3>Wireframes</h3>
+
+        <h4>Small screen</h4>
+
+        <img src="/weather/plan-images/wireframe-sm.png" alt="small wireframe">
+
+        <h4>Large screen</h4>
+
+        <img src="/weather/plan-images/wireframe-lg.jpg" alt="large wireframe">
+
+
+        <footer>
+            &copy;2017 Lynnette Warnberg
+        </footer>
+
+
+
+
+    </body>
+
+
+
+</html>
