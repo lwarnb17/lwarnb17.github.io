@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;    /* changes width property to total width instead of content width */
+
+}
+
+article,
+aside,
+footer,
+header{}
+
+
+.title h1 + h1 {
+    text-align: right;
+    margin-top: -.7em;
+}
+
+
+ nav
+    ul {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+
+
+}
+section,
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+
+}
+figcaption,
+figure {
+    display: block;/* just in case we have any older browsers that don't recognize the HTML5 semantic elements */
+}
+
+body {
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+
+    order:-1;
+    margin: 2em;  /* remove any margin from body to avoid unsightly gaps. */
+    padding: 0;  /* ditto for padding  */
+    background-color: salmon;
+
+}
+
+.hide
+{display:none;
+}
+
+.left
+{order:2;
+}
+
+h4
+{visibility: hidden;
+
+
+}
