@@ -25,6 +25,7 @@ header{}
     list-style-type: none;
     margin:0;
     padding:0;
+    justify-content: space-between;
 
 
 }
@@ -35,12 +36,17 @@ main {
     align-items: center;
 
 
+
+
 }
 figcaption,
 figure {
     display: block;/* just in case we have any older browsers that don't recognize the HTML5 semantic elements */
 }
 
+.extra
+{display:none;
+}
 body {
     display:flex;
     flex-flow:column;
@@ -64,5 +70,15 @@ body {
 h4
 {visibility: hidden;
 
-
 }
+
+.sunny{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.number{
+    text-align: center;
+}
+
