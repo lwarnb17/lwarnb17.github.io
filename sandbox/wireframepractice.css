@@ -1,0 +1,47 @@
+header{
+
+}
+
+.logo{
+display:flex;
+justify-content: center;
+}
+
+
+
+
+.top{
+display:flex;
+justify-content: center;
+}
+
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    padding: 80px;
+}
+
+.imagetext{
+
+    display:flex;
+    background-image: url(flower.jpg);
+    width:100%;
+    height:400px;
+
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.footer{
+display:flex;
+flex-flow:wrap;
+justify-content: space-between;
+
+}
+}

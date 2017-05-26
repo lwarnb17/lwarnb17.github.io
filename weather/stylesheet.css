@@ -1,17 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+
 * {
     box-sizing: border-box;    /* changes width property to total width instead of content width */
 
 }
 
+
 article,
 aside,
-footer,
-header{}
 
+footer{
+    background-color: #A6D8DB;
+    padding-bottom: 30px;
+
+}
+
+.title{
+    background-color: #A6D8DB;
+    padding: 0;
+}
+.die {
+    transform: rotate(25deg);
+    display: inline-block;
+}
 
 .title h1 + h1 {
+    margin-bottom:0;
     text-align: right;
     margin-top: -.7em;
+
+
 }
 
 
@@ -26,19 +45,46 @@ header{}
     margin:0;
     padding:0;
     justify-content: space-between;
+    font-size:18px;
+    background-color: #F07C6C;
 
 
 }
+
+nav a:link {
+    text-decoration: none;
+    color: #47556F;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #47556F;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #47556F;
+}
+
+nav a:active {
+    text-decoration: underline;
+    color: #47556F;
+}
+
 section,
+
+
 main {
     display: flex;
     flex-flow: column;
     align-items: center;
-
-
-
+    background-image:url("plan-images/sunny-winter.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 0;
 
 }
+
 figcaption,
 figure {
     display: block;/* just in case we have any older browsers that don't recognize the HTML5 semantic elements */
@@ -47,24 +93,22 @@ figure {
 .extra
 {display:none;
 }
-body {
-    display:flex;
-    flex-flow:column;
-    align-items:center;
-
-    order:-1;
-    margin: 2em;  /* remove any margin from body to avoid unsightly gaps. */
-    padding: 0;  /* ditto for padding  */
-    background-color: salmon;
-
-}
 
 .hide
 {display:none;
 }
 
-.left
-{order:2;
+.left{
+order:2;
+background-color: rgba(200,200,200,.7);
+margin: .2em auto;
+padding: .5em;
+width:80%;
+border: 1px solid;
+border-radius: 5px;
+font-size: 20px;
+
+
 }
 
 h4
@@ -74,11 +118,53 @@ h4
 
 .sunny{
 display:flex;
-flex-direction: row;
-justify-content: space-around;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+background-color: rgba(200,200,200,.5);
+margin: .2em auto;
+padding: .5em;
+width:55%;
+border: 1px solid;
+border-radius: 5px;
+font-size: 25px;
+
 }
 
 .number{
     text-align: center;
 }
+
+
+.middle{
+    background-color: rgba(200,200,200,.5);
+    margin: .2em auto;
+    padding: .5em;
+
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+
+h1,
+
+h2,
+
+
+h3,
+
+
+h4,
+
+
+h5,
+
+
+
+h6 {
+    font-family: Sansita, "second choice", generic-family;
+}
+
+
 
