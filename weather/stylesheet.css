@@ -114,6 +114,7 @@ font-size: 20px;
 h4
 {visibility: hidden;
 
+
 }
 
 .sunny{
@@ -166,5 +167,36 @@ h6 {
     font-family: Sansita, "second choice", generic-family;
 }
 
+@media(min-width:500px) {
+    h4{
+        visibility:inherit;
+        background-color: rgba(200,200,200,.5);
+        margin: .2em auto;
+        padding: .5em;
+
+        border: 1px solid;
+        border-radius: 5px;
+
+        }
+
+
+    .hide{
+        display:inline;
+        background-color: rgba(200,200,200,.5);
+        margin: .2em auto;
+        padding: .5em;
+
+        border: 1px solid;
+        border-radius: 5px;
+        }
+    main{
+        display: flex;
+        flex-flow: wrap;
+        }
+    main{
+        flex: 0 30%
+        }
+
+}
 
 
