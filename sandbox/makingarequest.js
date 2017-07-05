@@ -64,6 +64,10 @@ function fetchShips() {
 function getShipDetails(url){
     getJSON(url).then(function(data){
         console.log(data);
+        document.querySelector('.name').innerHTML = data.name;
+        document.querySelector('.model').innerHTML = data.model;
+        document.querySelector('.class').innerHTML = data.starship_class;
+        document.querySelector('detailsbox').classList.remove('hidden');
     });
 }
 fetchShips();
