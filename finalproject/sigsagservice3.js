@@ -19,15 +19,16 @@ function services2(){
 
             var listItem = document.createElement('li');
             var img = document.createElement('img');
-            var link = document. createElement('a');
+            var link = document.createElement('a');
+            var name = document.createElement('h2');
 
 
-            link.setAttribute('href', val.url);
-            img.setAttribute('src', val.img);
-            link.innerHTML = val.link;
+            link.setAttribute('href', val.link);
+            img.setAttribute('src', val.imgSrc);
+            link.innerHTML = val.name;
 
-            listItem. appendChild(img);
-            listItem. appendChild(link);
+            listItem.appendChild(img);
+            listItem.appendChild(link);
             services2Element.appendChild(listItem);
         });
     })

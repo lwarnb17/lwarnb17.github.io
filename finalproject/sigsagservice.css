@@ -24,7 +24,9 @@ body {
     margin:0;
 }
 
-a{
+
+
+a {
     color: white;
     text-decoration: none;
 }
@@ -73,6 +75,30 @@ ul{
 
 }
 
+.listbox a:link{
+    color:#04471c ;
+    text-decoration: none;
+}
+
+
+.listbox a:active {
+    text-decoration: none;
+    color:#FFFF00;
+}
+
+.listbox a:link,.listbox a:visited {
+    color:#04471c;
+    text-decoration: none;
+}
+.listbox a:hover {
+    text-decoration: none;
+    color:#FFFF00;
+}
+
+
+
+
+
 
 footer{
     background-color: #f2de96;
@@ -83,6 +109,7 @@ footer{
     font-size: 14px;
     list-style: none;
 }
+
 @media(min-width:800px) {
 
 
