@@ -1,0 +1,47 @@
+{
+    "services":[
+        "seeding",{
+            "imgSrc":"/services-img/tyflying4.jpg",
+            "link":"http://threeriversagconsulting.com/wp-content/uploads/2014/08/Aerial-Seeding-Fact-SheetFINAL-3.pdf"
+        },
+
+        "herbicide",{
+            "imgSrc":"/services-img/tysunset.jpg",
+            "link":"http://soilserviceinc.com/ag-chemicals/herbicide/"
+        },
+
+        "fungicide",{
+            "imgSrc":"/services-img/planesinhanger.jpg",
+            "link":"http://soilserviceinc.com/ag-chemicals/fungicide/"
+        },
+
+
+        "insecticide",{
+            "imgSrc":"/services-img/airplaneprop.jpg",
+            "link":"http://soilserviceinc.com/ag-chemicals/insecticide/"
+        }],
+
+
+
+    "gallery":[
+        "air tractor-802",{
+            "imgSrc":"/gallery-img/airtractor802.jpg",
+            "link":"http://aerotechteam.com/fleet/air-tractors/"
+        },
+
+        "thrush 510G",{
+            "imgSrc":"/gallery-img/airtractor802.jpg",
+            "link":"https://www.thrushaircraft.com/en/aircraft/510g"
+        },
+
+        "thrush 510GR",{
+            "imgSrc":"/gallery-img/thrush510g.jpg",
+            "link":"https://www.thrushaircraft.com/en/aircraft/510gr"
+        },
+
+        "thrush 710p",{
+            "imgSrc":"/gallery-img/thrush710p.jpg",
+            "link":"https://www.thrushaircraft.com/en/aircraft/710p"
+        }]
+
+}

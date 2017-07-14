@@ -1,3 +1,106 @@
 body {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logo{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 30px;
+    background-color: #04471c;
+    height: 100px;
+}
+
+.list1{
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #04471c;
+    padding:5px;
+    margin:0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+    color:#FFFF00;
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color:#FFFF00;
+}
+
+.plane1{
+
+    padding:0;
+    margin:0;
+}
+
+.intro{
+    background: url("/finalproject/greenpapertexture.jpg");
+    padding:25px;
+    padding-top: 75px;
+    margin: auto;
+    color:white;
+    text-align: center;
+    font-size:15px;
+    font-weight: 600;
+
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+
+}
+
+
+footer{
+    background-color: #f2de96;
+    padding: 3em;
+    margin:0;
+    text-align: center;
+    color:#04471c;
+    font-size: 14px;
+    list-style: none;
+}
+@media(min-width:800px) {
+
+
+
+
+    .list1{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .intro{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    footer{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
 }
